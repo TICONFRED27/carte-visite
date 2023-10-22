@@ -1,11 +1,27 @@
-// create a variable fontStyle and assign the value of "Courier New", Courier;
-$fontstyle: Courier New, Courier;
-// create a variable fontColor and assign the value of #d41f1f;
-$fontcolor: #d41f1f;
+$fontstyle: Courier New, Courier; 
+$fontcolor: #68534D;
 
-// apply the property font-family and color to your h1 tag, with the variable values
+
+
+
+div{
+    text-align: center;
+    background-color: #83B87B;
+ padding-top: 10px;
+ width: 400px;
+ border: 3px solid dimgrey;
+    
+    
+    h1 {
+        color: $fontcolor;
+      
+    }   
+   
 nav {
-  ul {
+   
+   display: flex;
+   justify-content: center;
+ul {
     display: flex;
     list-style-type: none;
     li {
@@ -15,8 +31,11 @@ nav {
   }
 }
 
-h1 {
-    color: $fontcolor;
-  text-align: center;
+
+p{
+ color: $fontcolor;
+ 
+ 
+}
 }
 
