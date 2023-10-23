@@ -1,14 +1,14 @@
 $fontstyle: Courier New, Courier; 
 $fontcolor: #68534D;
+$largeur: 400px;
 
 
 
-
-div{
-    text-align: center;
-    background-color: #83B87B;
+.carte{
+text-align: center;
+background-color: #83B87B;
  padding-top: 10px;
- width: 400px;
+ width: $largeur;
  border: 3px solid dimgrey;
     
     
