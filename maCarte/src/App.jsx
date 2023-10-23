@@ -3,7 +3,7 @@ import './style.scss';
 
 function App() {
   return (
-    <div>
+    <div className='carte'>
       <h1>TICON FREDERIC</h1>
       <p>Developpeur Web</p>
       <nav>
